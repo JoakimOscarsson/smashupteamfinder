@@ -115,6 +115,26 @@ sets:
       name: Werewolves
       enabled: True
 
+- Pretty Pretty Smash Up:
+  name: Pretty Pretty Smash Up
+  available: True
+  factions:
+    - Fairies:
+      name: Fairies
+      enabled: True
+  
+    - Kitty Cats:
+      name: Kitty Cats
+      enabled: True
+
+    - Mythic Horses:
+      name: Mythic Horses
+      enabled: True
+
+    - Princesses:
+      name: Princesses
+      enabled: True
+
 - Smash Up Munchkin:
   name: "Smash Up: Munchkin"
   available: False
@@ -349,4 +369,40 @@ sets:
 
     - Russian Fairy Tales:
       name: Russian Fairy Tales
+      enabled: True
+
+- Smash Up Marvel:
+  name: "Smash Up: Marvel"
+  available: False
+  factions:
+    - Avengers:
+      name: Avengers
+      enabled: True
+  
+    - Hydra:
+      name: Hydra
+      enabled: True
+
+    - Kree:
+      name: Kree
+      enabled: True
+
+    - Masters of Evil:
+      name: Masters of Evil
+      enabled: True
+
+    - S.H.I.E.L.D:
+      name: S.H.I.E.L.D
+      enabled: True
+  
+    - Sinister Six:
+      name: Sinister Six
+      enabled: True
+
+    - Spider-Verse:
+      name: Spider-Verse
+      enabled: True
+
+    - Ultimates:
+      name: Ultimates
       enabled: True
