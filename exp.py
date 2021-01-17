@@ -11,17 +11,12 @@ def main():
     save_data = yaml.load(stream)
     stream.close()
 
-    game = GameObj(app_data, save_data)
+    game = GameModel(app_data, save_data)
+    game.make_set_available(game.find_set_by_name("Monster Smash"))
     print(game.make_teams(4))
 
-    
-    
-    #game = GameObj(sets)
-    #teams = game.find_teams(4)
-    #print(teams)
 
-
-class GameObj():
+class GameModel():
     def __init__(self, raw_app_data, raw_save_data):
         # 0) pre-process raw data
         set_data = raw_app_data["sets"]
@@ -58,12 +53,10 @@ class GameObj():
     def enable_faction(self, faction):
         if faction not in self.enabled_factions:
             self.enabled_factions.append(faction)
-            faction._enable()  # TODO: See if we can remove the enable-tracker in the faction class.
     
     def disable_faction(self, faction):
         if faction in self.enabled_factions:
             self.enabled_factions.pop(self.enabled_factions.index(faction))
-            faction._disable()
     
     def make_set_available(self, set):
         self.available_sets.append(set)
@@ -122,36 +115,26 @@ class Readable():
 
 
 class Faction(Readable):
-    def __init__(self, gameobj, faction_dict, available):
+    def __init__(self, model, faction_dict):
         self.name = faction_dict["name"]
-        self.gameobj = gameobj
-        if available:
-            self.enabled = faction_dict["enabled"]
-        else:
-            self.enabled = False
+        self.model = model
     
     def disable(self):
-        self.gameobj.disable_faction(self)
-    
-    def _disable(self):
-        self.enabled = False
+        self.model.disable_faction(self)
 
     def enable(self):
-        self.gameobj.enable_faction(self)
-
-    def _enable(self):
-        self.enabled = True
+        self.model.enable_faction(self)
 
 
 class Set(Readable):
-    def __init__(self, gameobj, set_dict):
+    def __init__(self, model, set_dict):
         self.name = set_dict["name"]
         self.available = set_dict["available"]
-        self.gameobj = gameobj
+        self.model = model
         factions = []
         try:
             for faction in set_dict["factions"]:
-                factions.append(Faction(gameobj, faction, self.available))
+                factions.append(Faction(model, faction))
         except KeyError:
             pass
         self.factions = factions
