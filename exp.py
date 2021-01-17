@@ -11,9 +11,12 @@ def main():
     save_data = yaml.load(stream)
     stream.close()
 
+    print(save_data)
     game = GameModel(app_data, save_data)
-    game.make_set_available(game.find_set_by_name("Monster Smash"))
-    print(game.make_teams(4))
+    #game.make_set_available(game.find_set_by_name("Monster Smash"))
+    #game.make_set_unavailable(game.find_set_by_name("Monster Smash"))
+    #print(game.make_teams(4))
+    game.save_data("save.yaml")
 
 
 class GameModel():
@@ -104,6 +107,25 @@ class GameModel():
             self.enable_faction(team[0])
             self.enable_faction(team[1])
         return teams
+    
+    def save_data(self, file_path):
+        # serialize
+        serialized_data = self.serialize_save()
+        print(serialized_data)
+        # save
+        with open(file_path, "w") as file:
+            yaml.dump(serialized_data, file)
+
+    def serialize_save(self):
+        # Availalbe sets
+        disabled_faction_names = []
+        available_set_names = []
+        for set in self.available_sets:
+            available_set_names.append(set.name)
+            for faction in set.factions:
+                if faction not in self.enabled_factions:
+                    disabled_faction_names.append(faction.name)
+        return {"available sets": available_set_names, "disabled factions": disabled_faction_names}
 
 
 class Readable():
