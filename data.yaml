@@ -264,7 +264,7 @@ sets:
       enabled: True
 
 - That 70s Expansion:
-  name: "That '70s Expansion"
+  name: That '70s Expansion
   available: True
   factions:
     - Disco Dancers:
@@ -296,7 +296,7 @@ sets:
       enabled: True
 
 - Oops, You Did it Again:
-  name: "Oops, You Did it Again"
+  name: Oops, You Did it Again
   available: True
   factions:
     - Ancient Egyptians:
