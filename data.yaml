@@ -1,408 +1,306 @@
 sets:
 - Core Set:
   name: Core Set
-  available: True
   factions:
     - Aliens:
       name: Aliens
-      enabled: True
 
     - Dinosaurs:
       name: Dinosaurs
-      enabled: True
 
     - Ninjas:
       name: Ninjas
-      enabled: True
 
     - Pirates:
       name: Pirates
-      enabled: True
 
     - Robots:
       name: Robots
-      enabled: True
 
     - Tricksters:
       name: Tricksters
-      enabled: True
 
     - Wizards:
       name: Wizards
-      enabled: True
 
     - Zombies:
       name: Zombies
-      enabled: True
 
 - Awesome Level 9000:
   name: Awesome Level 9000
-  available: True
   factions:
     - Bear Cavalery:
       name: Bear Cavalery
-      enabled: True
 
     - Ghosts:
       name: Ghosts
-      enabled: True
 
     - Killer Plants:
       name: Killer Plants
-      enabled: True
 
     - Steampunks:
       name: Steampunks
-      enabled: True
 
 - The Obligatory Cthulhu Set:
   name: The Obligatory Cthulhu Set
-  available: False
   factions:
     - Elder Things:
       name: Elder Things
-      enabled: True
   
     - Innsmouth:
       name: Innsmouth
-      enabled: True
 
     - Minions of Cthulhu:
       name: Minions of Cthulhu
-      enabled: True
 
     - Miskatonic University:
       name: Miskatonic University
-      enabled: True
 
 - Science Fiction Double Feature:
   name: Science Fiction Double Feature
-  available: False
   factions:
     - Cyborg Apes:
       name: Cyborg Apes
-      enabled: True
   
     - Shapeshifters:
       name: Shapeshifters
-      enabled: True
 
     - Super Spies:
       name: Super Spies
-      enabled: True
 
     - Time Travelers:
       name: Time Travelers
-      enabled: True
 
 - Monster Smash:
   name: Monster Smash
-  available: False
   factions:
     - Giant Ants:
       name: Giant Ants
-      enabled: True
   
     - Mad Scientists:
       name: Mad Scientists
-      enabled: True
 
     - Vampires:
       name: Vampires
-      enabled: True
 
     - Werewolves:
       name: Werewolves
-      enabled: True
 
 - Pretty Pretty Smash Up:
   name: Pretty Pretty Smash Up
-  available: True
   factions:
     - Fairies:
       name: Fairies
-      enabled: True
   
     - Kitty Cats:
       name: Kitty Cats
-      enabled: True
 
     - Mythic Horses:
       name: Mythic Horses
-      enabled: True
 
     - Princesses:
       name: Princesses
-      enabled: True
 
 - Smash Up Munchkin:
   name: "Smash Up: Munchkin"
-  available: False
   factions:
     - Clerics:
       name: Clerics
-      enabled: True
   
     - Dwarves:
       name: Dwarves
-      enabled: True
 
     - Elves:
       name: Elves
-      enabled: True
 
     - Halflings:
       name: Halflings
-      enabled: True
 
     - Mages:
       name: Mages
-      enabled: True
   
     - Orcs:
       name: Orcs
-      enabled: True
 
     - Thieves:
       name: Thieves
-      enabled: True
 
     - Warriors:
       name: Warriors
-      enabled: True
 
 - It's Your Fault!:
   name: "It's Your Fault!"
-  available: True
   factions:
     - Dragons:
       name: Dragons
-      enabled: True
   
     - Mythic Greeks:
       name: Mythic Greeks
-      enabled: True
 
     - Sharks:
       name: Sharks
-      enabled: True
 
     - Superheroes:
       name: Superheroes
-      enabled: True
 
     - Tornados:
       name: Tornados
-      enabled: True
 
 - Cease and Desist:
   name: Cease and Desist
-  available: True
   factions:
     - Astroknights:
       name: Astroknights
-      enabled: True
   
     - Changerbots:
       name: Changerbots
-      enabled: True
 
     - Ignobles:
       name: Ignobles
-      enabled: True
 
     - Star Roamers:
       name: Star Roamers
-      enabled: True
 
 - What Were We Thinking?:
   name: What Were We Thinking?
-  available: False
   factions:
     - Explorers:
       name: Explorers
-      enabled: True
   
     - Grannies:
       name: Grannies
-      enabled: True
 
     - Rock Stars:
       name: Rock Stars
-      enabled: True
 
     - Teddy Bears:
       name: Teddy Bears
-      enabled: True
 
 - Big in Japan:
   name: Big in Japan
-  available: False
   factions:
     - Itty Critters:
       name: Itty Critters
-      enabled: True
   
     - Kaiju:
       name: Kaiju
-      enabled: True
 
     - Magical Girls:
       name: Magical Girls
-      enabled: True
 
     - Mega Troopers:
       name: Mega Troopers
-      enabled: True
 
 - Smash Up Sheep Promo:
   name: Smash Up Sheep Promo
-  available: False
   factions:
     - Sheep:
       name: Sheep
-      enabled: True
 
 - That 70s Expansion:
   name: That '70s Expansion
-  available: True
   factions:
     - Disco Dancers:
       name: Disco Dancers
-      enabled: True
   
     - Kung Fu Fighters:
       name: Kung Fu Fighters
-      enabled: True
 
     - Truckers:
       name: Truckers
-      enabled: True
 
     - Vigilantes:
       name: Vigilantes
-      enabled: True
 
 - The Bigger Geekier Box:
   name: The Bigger Geekier Box
-  available: True
   factions:
     - Geeks:
       name: Geeks
-      enabled: True
   
     - Smash Up All Stars:
       name: Smash Up All Stars
-      enabled: True
 
 - Oops, You Did it Again:
   name: Oops, You Did it Again
-  available: True
   factions:
     - Ancient Egyptians:
       name: Ancient Egyptians
-      enabled: True
   
     - Cowboys:
       name: Cowboys
-      enabled: True
 
     - Samurai:
       name: Samurai
-      enabled: True
 
     - Vikings:
       name: Vikings
-      enabled: True
 
 - World Tour International Incident:
   name: "World Tour: International Incident"
-  available: False
   factions:
     - Luchadors:
       name: Luchadors
-      enabled: True
   
     - Mounties:
       name: Mounties
-      enabled: True
 
     - Musketeers:
       name: Musketeers
-      enabled: True
 
     - Sumo Wrestlers:
       name: Sumo Wrestlers
-      enabled: True
 
 - Smash UP Penguins:
   name: Smash UP Penguins
-  available: False
   factions:
     - Penguins:
       name: Penguins
-      enabled: True
 
 - Smash Up TITANS:
   name: Smash UP TITANS
-  available: False
 
 - World Tour Culture Shock:
   name: "World Tour: Culture Shock"
-  available: False
   factions:
     - Anasi Tales:
       name: Anasi Tales
-      enabled: True
   
     - Ancient Incas:
       name: Ancient Incas
-      enabled: True
 
     - Grimms' Fairy Tales:
       name: Grimms' Fairy Tales
-      enabled: True
 
     - Polynesian Voyages:
       name: Polynesian Voyages
-      enabled: True
 
     - Russian Fairy Tales:
       name: Russian Fairy Tales
-      enabled: True
 
 - Smash Up Marvel:
   name: "Smash Up: Marvel"
-  available: False
   factions:
     - Avengers:
       name: Avengers
-      enabled: True
   
     - Hydra:
       name: Hydra
-      enabled: True
 
     - Kree:
       name: Kree
-      enabled: True
 
     - Masters of Evil:
       name: Masters of Evil
-      enabled: True
 
     - S.H.I.E.L.D:
       name: S.H.I.E.L.D
-      enabled: True
   
     - Sinister Six:
       name: Sinister Six
-      enabled: True
 
     - Spider-Verse:
       name: Spider-Verse
-      enabled: True
 
     - Ultimates:
       name: Ultimates
-      enabled: True

@@ -11,7 +11,6 @@ def main():
     save_data = yaml.load(stream)
     stream.close()
 
-    print(save_data)
     game = GameModel(app_data, save_data)
     #game.make_set_available(game.find_set_by_name("Monster Smash"))
     #game.make_set_unavailable(game.find_set_by_name("Monster Smash"))
@@ -109,15 +108,11 @@ class GameModel():
         return teams
     
     def save_data(self, file_path):
-        # serialize
         serialized_data = self.serialize_save()
-        print(serialized_data)
-        # save
         with open(file_path, "w") as file:
             yaml.dump(serialized_data, file)
 
     def serialize_save(self):
-        # Availalbe sets
         disabled_faction_names = []
         available_set_names = []
         for set in self.available_sets:
@@ -151,7 +146,6 @@ class Faction(Readable):
 class Set(Readable):
     def __init__(self, model, set_dict):
         self.name = set_dict["name"]
-        self.available = set_dict["available"]
         self.model = model
         factions = []
         try:
@@ -164,12 +158,10 @@ class Set(Readable):
     def make_available(self):
         for faction in self.factions:
             faction.enable()
-        self.available = True
 
     def make_unavailable(self):
         for faction in self.factions:
             faction.disable()
-        self.available = False
         
 
 
