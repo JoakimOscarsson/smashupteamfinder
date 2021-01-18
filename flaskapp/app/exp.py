@@ -14,7 +14,7 @@ def main():
     game = GameModel(app_data, save_data)
     #game.make_set_available(game.find_set_by_name("Monster Smash"))
     #game.make_set_unavailable(game.find_set_by_name("Monster Smash"))
-    #print(game.make_teams(4))
+    print(game.make_teams(4))
     game.save_data("save.yaml")
 
 
