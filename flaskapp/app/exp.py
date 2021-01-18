@@ -2,7 +2,12 @@ import yaml
 import random
 
 
-def main():
+def entry():
+    app_data, save_data = load_data()
+    game = GameModel(app_data, save_data)
+    return game.make_teams(4)
+
+def load_data():
     stream = open("data.yaml", "r")
     app_data = yaml.load(stream)
     stream.close()
@@ -10,6 +15,10 @@ def main():
     stream = open("save.yaml", "r") 
     save_data = yaml.load(stream)
     stream.close()
+    return app_data, save_data
+
+def main():
+    app_data, save_data = load_data()
 
     game = GameModel(app_data, save_data)
     #game.make_set_available(game.find_set_by_name("Monster Smash"))

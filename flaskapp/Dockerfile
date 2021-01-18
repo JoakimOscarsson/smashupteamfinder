@@ -1,6 +1,6 @@
 FROM flaskprod
 
-COPY app/app.py app/requirements.txt webserver/uwsgi.ini webserver/start.sh /srv/flask_app/
+COPY app/ webserver/uwsgi.ini webserver/start.sh /srv/flask_app/
 WORKDIR /srv/flask_app
 
 RUN pip install -r requirements.txt --src /usr/local/src
