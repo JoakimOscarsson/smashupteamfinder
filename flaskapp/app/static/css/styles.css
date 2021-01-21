@@ -25,22 +25,74 @@ body {
 .card-box1, .card-box2 {
     background-color: LightGray;
     width: 49%;
-    height: 0px;
-    padding-bottom: 70%;
+    
     border-radius: 5px;
     float:left;
 }
 
-.card-box2{
+/*
+images/Aliens.png"
+images/Killer_Plants.png"
+images/Miskatonic_University-0.png
+images/Kung_Fu.png"
+images/Robots.png"
+images/Thieves.png"
+*/
+
+.card-box {
+    /* Ändra mig om bilden ska bli mindre */
+    padding: 0 15px 15px 15px;
+    box-sizing: border-box;
+}
+
+.card-box .ratio {
+    padding-bottom: 100%;
+    height: 0;
+    background-color: LightGray;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon-aliens {
+    background-image: url('../images/Aliens.png')
+}
+
+.icon-killer-plants {
+    background-image: url('../images/Killer_Plants.png')
+}
+
+.icon-university {
+    background-image: url('../images/Miskatonic_University-0.png')
+}
+
+.icon-kung-fu {
+    background-image: url('../images/Kung_Fu.png')
+}
+
+.icon-robots {
+    background-image: url('../images/Robots.png')
+}
+
+.icon-thieves {
+    background-image: url('../images/Thieves.png')
+}
+
+.card-box2 {
     float: right;
 }
 
 .title {
     text-align: center;
     display: block;
-    min-height: 30%;
+    /* min-height: 30%; */
 }
 
+.card-box--title {
+    min-height: 15%;
+    display: grid;
+    place-items: center;
+}
 
 .icon {
     display: block;
@@ -48,7 +100,7 @@ body {
     max-width: 75%;
 }
 
-img{
+img {
     max-width: 100%;
     max-height: 100%;
 }
@@ -59,37 +111,31 @@ img{
 736: 195*278
 */
 @media only screen and (min-width: 560px) {
+
     .card-wrapper {
-    display: inline-block;
+        display: inline-block;
     }
-    .card-box1, .card-box2 {
+
+    .card-box {
         width: 195px;
         height: 278px;
         padding-bottom: 0;
-        margin 0, auto;
+        margin 0 auto;
     }
-    .card-box2{
+
+    .card-box2 {
         margin-left: 5px;
     }
 
 }
 @media only screen and (min-width: 730px) {
-    .card-box1 {
+    .card-box {
         width: 176px;
         height: 251px;
     }
-    .card-box2 {
-        width: 176px;
-        height: 251px;
-    }
-
 }
 @media only screen and (min-width 800px) {
-    .card-box1 {
-        width: 195px;
-        height: 278px;
-    }
-    .card-box2 {
+    .card-box {
         width: 195px;
         height: 278px;
     }
