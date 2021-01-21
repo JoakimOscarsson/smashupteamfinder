@@ -28,35 +28,24 @@ body {
     height: 0px;
     padding-bottom: 70%;
     border-radius: 5px;
-    display: grid;
-    #place-items: start center;
     float:left;
 }
-/*
-.card-box1, .card-box2 {
-    background-color: LightGray;
-    width: 49%;
-    padding-top: 70%;
-    position: relative;
-    border-radius: 5px;
-    float:left;
-}
-*/
-
 
 .card-box2{
     float: right;
 }
 
-.header {
+.title {
     text-align: center;
+    display: block;
+    min-height: 30%;
 }
 
 
 .icon {
     display: block;
-    height: 60%;
-    #justify-self: center;
+    height: 50%;
+    max-width: 75%;
 }
 
 img{
