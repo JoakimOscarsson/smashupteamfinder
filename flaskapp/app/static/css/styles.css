@@ -8,6 +8,7 @@ body {
 
 .team-wrapper {
     text-align: center;
+    display: inline-block;
 }
 
 .card-wrapper {
@@ -25,7 +26,6 @@ body {
 .card-box1, .card-box2 {
     background-color: LightGray;
     width: 49%;
-    
     border-radius: 5px;
     float:left;
 }
@@ -40,13 +40,13 @@ images/Thieves.png"
 */
 
 .card-box {
-    /* Ändra mig om bilden ska bli mindre */
-    padding: 0 15px 15px 15px;
+    padding: 0 30px 30px 30px;
     box-sizing: border-box;
+    max-width: 180px;
 }
 
 .card-box .ratio {
-    padding-bottom: 100%;
+    padding-bottom: calc(140%);
     height: 0;
     background-color: LightGray;
     background-size: contain;
@@ -89,7 +89,7 @@ images/Thieves.png"
 }
 
 .card-box--title {
-    min-height: 15%;
+    min-height: 50px;
     display: grid;
     place-items: center;
 }
@@ -97,7 +97,6 @@ images/Thieves.png"
 .icon {
     display: block;
     height: 50%;
-    max-width: 75%;
 }
 
 img {
@@ -110,6 +109,8 @@ img {
 667: 176*251
 736: 195*278
 */
+
+/*
 @media only screen and (min-width: 560px) {
 
     .card-wrapper {
@@ -117,17 +118,18 @@ img {
     }
 
     .card-box {
-        width: 195px;
-        height: 278px;
-        padding-bottom: 0;
-        margin 0 auto;
+        #width: 195px;
+        #height: 278px;
+        #padding-bottom: 0;
+        #margin 0 auto;
     }
 
     .card-box2 {
-        margin-left: 5px;
+        #margin-left: 5px;
     }
 
 }
+/*
 @media only screen and (min-width: 730px) {
     .card-box {
         width: 176px;
@@ -140,4 +142,4 @@ img {
         height: 278px;
     }
 }
-
+*/
