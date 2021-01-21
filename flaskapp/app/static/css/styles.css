@@ -1,0 +1,92 @@
+body {
+    background-color: AliceBlue;
+}
+
+.menu {
+    background-color: DarkSeaGreen;
+}
+
+.team-wrapper {
+    text-align: center;
+}
+
+.card-wrapper {
+    background-color: DarkSlateGray;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.card-wrapper h2 {
+    color: Orange;
+    font-family: Georgia, serif;
+}
+
+.card-box1, .card-box2 {
+    background-color: LightGray;
+    width: 49%;
+    height: 0px;
+    padding-bottom: 70%;
+    border-radius: 5px;
+    float:left;
+}
+
+.card-box2{
+    float: right;
+}
+
+.header {
+    text-align: center;
+}
+
+.icon {
+    padding: 15%;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*
+570: 149*213
+667: 176*251
+736: 195*278
+*/
+@media only screen and (min-width: 560px) {
+    .card-wrapper {
+    display: inline-block;
+    }
+    .card-box1, .card-box2 {
+        width: 195px;
+        height: 278px;
+        padding-bottom: 0px;
+        margin 0, auto;
+    }
+    .card-box2{
+        margin-left: 5px;
+    }
+
+}
+@media only screen and (min-width: 730px) {
+    .card-box1 {
+        width: 176px;
+        height: 251px;
+    }
+    .card-box2 {
+        width: 176px;
+        height: 251px;
+    }
+
+}
+@media only screen and (min-width 800px) {
+    .card-box1 {
+        width: 195px;
+        height: 278px;
+    }
+    .card-box2 {
+        width: 195px;
+        height: 278px;
+    }
+}
+
