@@ -42,16 +42,15 @@ images/Thieves.png"
 .card-box {
     padding: 0 30px 30px 30px;
     box-sizing: border-box;
-    /*max-width: 180px;*/
 }
 
 .card-box .ratio {
     padding-bottom: calc(140%);
     height: 0;
     background-color: LightGray;
-    /*background-size: contain;*/
+    background-size: contain;
     background-size: 70%;
-    background-position: center;
+    background-position: 50% 30%;
     background-repeat: no-repeat;
 }
 
@@ -124,9 +123,10 @@ img {
         padding-bottom: 0;
         margin 0 auto;
     }
-
+    
     .card-box2 {
         margin-left: 5px;
     }
+    
 
 }
