@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Smash Up Team Finder</title>
+    <meta name="description" content="Team randomizer" />
+    <meta name="author" content="Joakim Oscarsson" />
+    <link rel="stylesheet" href="static/css/styles.css?v=1.0" />
+  </head>
+
+  <body>
+    <div class="menu">
+      <h2>Hello: {{ menu_title }}</h2>
+    </div>
+
+    <div class="body">
+      <h1>Hello world! {{body_title}}</h1>
+
+      <div class="team-wrapper">
+        {% for team in teams: %}
+        <div class="card-wrapper">
+          <div class="title"><h2>Player {{loop.index}}</h2></div>
+          <div class="card-box">
+            <h3 class="card-box--title">{{team[0].name}}</h3>
+            <div class="ratio" style="background-image: url('{{team[0].logo}}')"></div>
+          </div>
+          <div class="card-box align-right">
+            <h3 class="card-box--title">{{team[1].name}}</h3>
+            <div class="ratio" style="background-image: url('{{team[1].logo}}')"></div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <!--
+  <script src="js/scripts.js"></script>
+  --></body>
+</html>

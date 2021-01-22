@@ -4,258 +4,327 @@ sets:
   factions:
     - Aliens:
       name: Aliens
+      logo: "static/images/Aliens.png"
 
     - Dinosaurs:
       name: Dinosaurs
+      logo: "static/images/Dinosaurs.png"
 
     - Ninjas:
       name: Ninjas
+      logo: "static/images/Ninjas.png"
 
     - Pirates:
       name: Pirates
+      logo: "static/images/Pirates.png"
 
     - Robots:
       name: Robots
+      logo: "static/images/Robots.png"
 
     - Tricksters:
       name: Tricksters
+      logo: "static/images/Tricksters.png"
 
     - Wizards:
       name: Wizards
+      logo: "static/images/Wizards.png"
 
     - Zombies:
       name: Zombies
+      logo: "static/images/Zombies.png"
 
 - Awesome Level 9000:
   name: Awesome Level 9000
   factions:
     - Bear Cavalery:
       name: Bear Cavalery
+      logo: "static/images/Bear_Cavalry.png"
 
     - Ghosts:
       name: Ghosts
+      logo: "static/images/Ghosts.png"
 
     - Killer Plants:
       name: Killer Plants
+      logo: "static/images/Killer_Plants.png"
 
     - Steampunks:
       name: Steampunks
+      logo: "static/images/Steampunk.png"
 
 - The Obligatory Cthulhu Set:
   name: The Obligatory Cthulhu Set
   factions:
     - Elder Things:
       name: Elder Things
-  
+      logo: "static/images/Elder_Things.png"
+
     - Innsmouth:
-      name: Innsmouth
+      name: Innsmouthi
+      logo: "static/images/Innsmouth.png"
 
     - Minions of Cthulhu:
       name: Minions of Cthulhu
+      logo: "static/images/Minions_of_Cthulhu.png"
 
     - Miskatonic University:
       name: Miskatonic University
+      logo: "static/images/Miskatonic_University-0.png"
 
 - Science Fiction Double Feature:
   name: Science Fiction Double Feature
   factions:
     - Cyborg Apes:
       name: Cyborg Apes
+      logo: "static/images/Cyborg_Apes.png"
   
     - Shapeshifters:
       name: Shapeshifters
+      logo: "static/images/Shapeshifters.png"
 
     - Super Spies:
       name: Super Spies
+      logo: "static/images/Super_Spies.png"
 
     - Time Travelers:
       name: Time Travelers
+      logo: "static/images/Time_Travelers.png"
 
 - Monster Smash:
   name: Monster Smash
   factions:
     - Giant Ants:
       name: Giant Ants
+      logo: "static/images/Giant_Ants-0.png"
   
     - Mad Scientists:
       name: Mad Scientists
+      logo: "static/images/Mad_Scientists.png"
 
     - Vampires:
       name: Vampires
+      logo: "static/images/Vampires.png"
 
     - Werewolves:
       name: Werewolves
+      logo: "static/images/Werewolves.png"
 
 - Pretty Pretty Smash Up:
   name: Pretty Pretty Smash Up
   factions:
     - Fairies:
       name: Fairies
+      logo: "static/images/Fairies.png"
   
     - Kitty Cats:
       name: Kitty Cats
+      logo: "static/images/Kitty_Cats.png"
 
     - Mythic Horses:
       name: Mythic Horses
+      logo: "static/images/Mythic_Horses-0.png"
 
     - Princesses:
       name: Princesses
+      logo: "static/images/Princesses.png"
 
 - Smash Up Munchkin:
   name: "Smash Up: Munchkin"
   factions:
     - Clerics:
       name: Clerics
+      logo: "static/images/Clerics.png"
   
     - Dwarves:
       name: Dwarves
+      logo: "static/images/Dwarves.png"
 
     - Elves:
       name: Elves
+      logo: "static/images/Elves.png"
 
     - Halflings:
       name: Halflings
+      logo: "static/images/Halflings.png"
 
     - Mages:
       name: Mages
+      logo: "static/images/Mages.png"
   
     - Orcs:
       name: Orcs
+      logo: "static/images/Orcs-0.png"
 
     - Thieves:
       name: Thieves
+      logo: "static/images/Thieves.png"
 
     - Warriors:
       name: Warriors
+      logo: "static/images/Warriors.png"
 
 - It's Your Fault!:
   name: "It's Your Fault!"
   factions:
     - Dragons:
       name: Dragons
+      logo: "static/images/Dragons.png"
   
     - Mythic Greeks:
       name: Mythic Greeks
+      logo: "static/images/Mythic_Greeks-0.png"
 
     - Sharks:
       name: Sharks
+      logo: "static/images/Sharks.png"
 
     - Superheroes:
       name: Superheroes
+      logo: "static/images/Superheroes.png"
 
     - Tornados:
       name: Tornados
+      logo: "static/images/Tornados-0.png"
 
 - Cease and Desist:
   name: Cease and Desist
   factions:
     - Astroknights:
       name: Astroknights
+      logo: "static/images/Astro_Knights.png"
   
     - Changerbots:
       name: Changerbots
+      logo: "static/images/Changerbots.png"
 
     - Ignobles:
       name: Ignobles
+      logo: "static/images/Ignobles.png"
 
     - Star Roamers:
       name: Star Roamers
+      logo: "static/images/Star_Roamers.png"
 
 - What Were We Thinking?:
   name: What Were We Thinking?
   factions:
     - Explorers:
       name: Explorers
+      logo: "static/images/Explorers.png"
   
     - Grannies:
       name: Grannies
+      logo: "static/images/Grannies.png"
 
     - Rock Stars:
       name: Rock Stars
+      logo: "static/images/Rock_Stars.png"
 
     - Teddy Bears:
       name: Teddy Bears
+      logo: "static/images/Teddy_Bears.png"
 
 - Big in Japan:
   name: Big in Japan
   factions:
     - Itty Critters:
       name: Itty Critters
+      logo: "static/images/Itty_Critters.png"
   
     - Kaiju:
       name: Kaiju
+      logo: "static/images/Kaiju-0.png"
 
     - Magical Girls:
       name: Magical Girls
+      logo: "static/images/Magical_Girls.png"
 
     - Mega Troopers:
       name: Mega Troopers
+      logo: "static/images/Mega_Troopers.png"
 
 - Smash Up Sheep Promo:
   name: Smash Up Sheep Promo
   factions:
     - Sheep:
       name: Sheep
+      logo: "static/images/Sheep_Icon.png"
 
 - That 70s Expansion:
-  name: That '70s Expansion
+  name: "That '70s Expansion"
   factions:
     - Disco Dancers:
       name: Disco Dancers
+      logo: "static/images/Disco.png"
   
     - Kung Fu Fighters:
       name: Kung Fu Fighters
+      logo: "static/images/Kung_Fu.png"
 
     - Truckers:
       name: Truckers
+      logo: "static/images/Trucker.png"
 
     - Vigilantes:
       name: Vigilantes
+      logo: "static/images/Vigilante.png"
 
 - The Bigger Geekier Box:
   name: The Bigger Geekier Box
   factions:
     - Geeks:
       name: Geeks
+      logo: "static/images/Geeks.png"
   
     - Smash Up All Stars:
       name: Smash Up All Stars
+      logo: "static/images/Smash_Up_All_Stars_logo.png"
 
 - Oops, You Did it Again:
   name: Oops, You Did it Again
   factions:
     - Ancient Egyptians:
       name: Ancient Egyptians
+      logo: "static/images/Ancient_Egyptians_logo.png"
   
     - Cowboys:
       name: Cowboys
+      logo: "static/images/Cowboys_logo.png"
 
     - Samurai:
       name: Samurai
+      logo: "static/images/Samurai_logo.png"
 
     - Vikings:
       name: Vikings
+      logo: "static/images/Vikings_logo.png"
 
 - World Tour International Incident:
   name: "World Tour: International Incident"
   factions:
     - Luchadors:
       name: Luchadors
+      logo: "static/images/Luchadors_logo.png"
   
     - Mounties:
       name: Mounties
+      logo: "static/images/Mounties_logo.png"
 
     - Musketeers:
       name: Musketeers
+      logo: "static/images/Musketeers_logo.png"
 
     - Sumo Wrestlers:
       name: Sumo Wrestlers
+      logo: "static/images/Sumo_Wrestlers_logo.png"
 
 - Smash UP Penguins:
   name: Smash UP Penguins
   factions:
     - Penguins:
       name: Penguins
+      logo: "static/images/Penguins_logo_2.png"
 
 - Smash Up TITANS:
   name: Smash UP TITANS
@@ -265,42 +334,55 @@ sets:
   factions:
     - Anasi Tales:
       name: Anasi Tales
+      logo: "static/images/Anansi_Tales_logo.png"
   
     - Ancient Incas:
       name: Ancient Incas
+      logo: "static/images/Ancient_Incas_logo.png"
 
     - Grimms' Fairy Tales:
       name: Grimms' Fairy Tales
+      logo: "static/images/Grimms_Fairy_Tales_logo.png"
 
     - Polynesian Voyages:
       name: Polynesian Voyages
+      logo: "static/images/Polynesian_Voyagers_logo.png"
 
     - Russian Fairy Tales:
       name: Russian Fairy Tales
+      logo: "static/images/Russian_Fairy_Tales_logo.png"
 
 - Smash Up Marvel:
   name: "Smash Up: Marvel"
   factions:
     - Avengers:
       name: Avengers
+      logo: ""
   
     - Hydra:
       name: Hydra
+      logo: ""
 
     - Kree:
       name: Kree
+      logo: "static/images/Kree_icon.png"
 
     - Masters of Evil:
       name: Masters of Evil
+      logo: ""
 
     - S.H.I.E.L.D:
       name: S.H.I.E.L.D
+      logo: "static/images/SHIELD_icon.png"
   
     - Sinister Six:
       name: Sinister Six
+      logo: "static/images/Sinister_Six_icon.png"
 
     - Spider-Verse:
       name: Spider-Verse
+      logo: "static/images/Spider-Verse_icon.png"
 
     - Ultimates:
       name: Ultimates
+      logo: ""

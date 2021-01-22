@@ -143,6 +143,7 @@ class Readable():
 class Faction(Readable):
     def __init__(self, model, faction_dict):
         self.name = faction_dict["name"]
+        self.logo = faction_dict["logo"]
         self.model = model
     
     def disable(self):
