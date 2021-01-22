@@ -16,72 +16,35 @@ body {
     overflow: hidden;
     border-radius: 10px;
     padding: 5px;
-    /*display: inline-block;*/
 }
 
 .card-wrapper h2 {
     color: Orange;
     font-family: Georgia, serif;
 }
-.card-box1, .card-box2 {
+
+.card-box {
     background-color: LightGray;
     width: 49%;
     border-radius: 5px;
-    float:left;
+    #padding: 0 5% 30px 5%;
+    padding: 0 7%;
+    box-sizing: border-box;
+    float: left;
 }
 
-/*
-images/Aliens.png"
-images/Killer_Plants.png"
-images/Miskatonic_University-0.png
-images/Kung_Fu.png"
-images/Robots.png"
-images/Thieves.png"
-*/
-
-.card-box {
-    padding: 0 30px 30px 30px;
-    box-sizing: border-box;
+.card-box.align-right {
+    float: right;
 }
 
 .card-box .ratio {
-    padding-bottom: calc(140%);
+    padding-bottom: calc(120%);
+    margin-bottom: 20%;
     height: 0;
     background-color: LightGray;
     background-size: contain;
-    background-size: 70%;
     background-position: 50% 30%;
     background-repeat: no-repeat;
-}
-
-
-
-.icon-aliens {
-    background-image: url('../images/Aliens.png')
-}
-
-.icon-killer-plants {
-    background-image: url('../images/Killer_Plants.png')
-}
-
-.icon-university {
-    background-image: url('../images/Miskatonic_University-0.png')
-}
-
-.icon-kung-fu {
-    background-image: url('../images/Kung_Fu.png')
-}
-
-.icon-robots {
-    background-image: url('../images/Robots.png')
-}
-
-.icon-thieves {
-    background-image: url('../images/Thieves.png')
-}
-
-.card-box2 {
-    float: right;
 }
 
 .title {
@@ -95,25 +58,13 @@ images/Thieves.png"
     place-items: center;
 }
 
-.icon {
-    display: block;
-    height: 50%;
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
 /*
 570: 149*213
 667: 176*251
 736: 195*278
 */
 
-
 @media only screen and (min-width: 560px) {
-
     .card-wrapper {
         display: inline-block;
     }
@@ -123,10 +74,8 @@ img {
         padding-bottom: 0;
         margin 0 auto;
     }
-    
-    .card-box2 {
-        margin-left: 5px;
-    }
-    
 
+    .card-box.align-right {
+        margin-left: 6px;
+    }
 }
