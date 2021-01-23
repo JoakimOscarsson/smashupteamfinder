@@ -1,388 +1,423 @@
 sets:
-- Core Set:
-  name: Core Set
+- name: Core Set
   factions:
-    - Aliens:
-      name: Aliens
+    - name: Aliens
       logo: "static/images/Aliens.png"
+      description: "Return minions in play to their owners' hands, instantly gain victory points without even scoring a base, and manipulate bases."
 
-    - Dinosaurs:
-      name: Dinosaurs
+    - name: Dinosaurs
       logo: "static/images/Dinosaurs.png"
+      description: "Play high-powered minions, boost your minions' power, and destroy weaker minions."
 
-    - Ninjas:
-      name: Ninjas
+    - name: Ninjas
       logo: "static/images/Ninjas.png"
+      decription: "Destroy minions and actions, switch your minions in play with those in your hand, and sneak onto scoring bases at the last second."
 
-    - Pirates:
-      name: Pirates
+    - name: Pirates
       logo: "static/images/Pirates.png"
+      description: "Move around from base to base, especially during base scoring, and destroy weak minions, usually several at the same time."
+      mechanics: ["Optional:Titans"]
 
-    - Robots:
-      name: Robots
+    - name: Robots
       logo: "static/images/Robots.png"
+      description: "Play a bunch of weak minions as extra minions, often with power bonuses."
 
-    - Tricksters:
-      name: Tricksters
+    - name: Tricksters
       logo: "static/images/Tricksters.png"
+      description: "Force other players to discard cards from their hand, destroy actions and weak minions, and make bases undesirable to play on."
+      mechanics: ["Optional:Titans"]
 
-    - Wizards:
-      name: Wizards
+    - name: Wizards
       logo: "static/images/Wizards.png"
+      description: "Draw and play a lot of cards each turn, especially actions."
+      mechanics: ["Optional:Titans"]
 
-    - Zombies:
-      name: Zombies
+    - name: Zombies
       logo: "static/images/Zombies.png"
+      description: "Discard cards from your deck, play minions directly from the discard pile, and retrieve discarded cards into your deck/hand."
 
-- Awesome Level 9000:
-  name: Awesome Level 9000
+- name: Awesome Level 9000
   factions:
-    - Bear Cavalery:
-      name: Bear Cavalery
+    - name: Bear Cavalery
       logo: "static/images/Bear_Cavalry.png"
+      description: "Move other players' minions away from bases where you have minions, and destroy moving minions."
 
-    - Ghosts:
-      name: Ghosts
+    - name: Ghosts
       logo: "static/images/Ghosts.png"
+      description: "Gain benefits for discarding a lot of cards and gain benefit for having very few cards in hand, especially power boosts."
+      mechanics: ["Optional:Titans"]
 
-    - Killer Plants:
-      name: Killer Plants
+    - name: Killer Plants
       logo: "static/images/Killer_Plants.png"
+      description: "Play extra minions, usually straight from your deck, play cards with delayed effects, usually happening at the start of your next turn, but that will give you more benefits as turns go by."
 
-    - Steampunks:
-      name: Steampunks
+    - name: Steampunks
       logo: "static/images/Steampunk.png"
+      description: "Play play-on-base actions that benefit you, giving you more power and movement, and salvage discarded actions from your discard pile, especially play-on-base actions."
 
-- The Obligatory Cthulhu Set:
-  name: The Obligatory Cthulhu Set
+- name: The Obligatory Cthulhu Set
   factions:
-    - Elder Things:
-      name: Elder Things
+    - name: Elder Things
       logo: "static/images/Elder_Things.png"
+      description: "Give Madness to other players, usually forcing them to choose between drawing one or giving you an advantage, force them to reshuffle those Madness cards into their deck, but on the other hand you have strong minions that are difficult to play."
+      mechanics: ["Madness"]
 
-    - Innsmouth:
-      name: Innsmouthi
+    - name: Innsmouthi
       logo: "static/images/Innsmouth.png"
+      description: "Keep playing and refilling your hand with the same power-2 minions and gain benefits for having several minions with the same name on bases."
+      mechanics: ["Madness", "Optional:Titans"]
 
-    - Minions of Cthulhu:
-      name: Minions of Cthulhu
+    - name: Minions of Cthulhu
       logo: "static/images/Minions_of_Cthulhu.png"
+      description: "Play powerful actions and recover cards from the discard pile at the cost of drawing Madness cards or destroying your own minions."
+      mechanics: ["Madness", "Optional:Titans"]
 
-    - Miskatonic University:
-      name: Miskatonic University
+    - name: Miskatonic University
       logo: "static/images/Miskatonic_University-0.png"
+      description: "Draw and discard Madness cards to use powerful effects and play cards that can get rid of them."
+      mechanics: ["Madness"]
 
-- Science Fiction Double Feature:
-  name: Science Fiction Double Feature
+- name: Science Fiction Double Feature
   factions:
-    - Cyborg Apes:
-      name: Cyborg Apes
+    - name: Cyborg Apes
       logo: "static/images/Cyborg_Apes.png"
-  
-    - Shapeshifters:
-      name: Shapeshifters
+      description: "Power up your minions with powerful play-on-minion actions."
+
+    - name: Shapeshifters
       logo: "static/images/Shapeshifters.png"
+      description: "Copy other players' power and abilities, boost your minions' power, and destroy and replace your minions with other minions, especially from your deck."
 
-    - Super Spies:
-      name: Super Spies
+    - name: Super Spies
       logo: "static/images/Super_Spies.png"
+      description: "Sort your deck, take a peek and manipulate the top of each player's deck, force your opponents to discard cards, and play specials while bases are scoring."
+      mechanics: ["Optional:Titans"]
 
-    - Time Travelers:
-      name: Time Travelers
+    - name: Time Travelers
       logo: "static/images/Time_Travelers.png"
+      description: "Repeat the abilities of your minions in play, retrieve cards from your discard pile, especially actions, and manipulate bases."
+      mechanics: ["Optional:Titans"]
 
-- Monster Smash:
-  name: Monster Smash
+- name: Monster Smash
   factions:
-    - Giant Ants:
-      name: Giant Ants
+    - name: Giant Ants
       logo: "static/images/Giant_Ants-0.png"
-  
-    - Mad Scientists:
-      name: Mad Scientists
+      description: "Generate a lot of +1 power counters and flexibly transfer them among your minions."
+      mechanics: ["Power-Counters", "Optional:Titans"]
+
+    - name: Mad Scientists
       logo: "static/images/Mad_Scientists.png"
+      description: "Generate a lot of +1 power counters, especially when one of your minions is destroyed, and remove them to gain benefits."
+      mechanics: ["Power-Counters"]
 
-    - Vampires:
-      name: Vampires
+    - name: Vampires
       logo: "static/images/Vampires.png"
+      description: "Destroy weak minions and generate +1 power counters, especially from the destruction of minions."
+      mechanics: ["Power-Counters", "Optional:Titans"]
 
-    - Werewolves:
-      name: Werewolves
+    - name: Werewolves
       logo: "static/images/Werewolves.png"
+      description: "Gain temporary power boosts at very specific times, gain benefits from minions with the highest-power, and destroy weaker minions."
+      mechanics: ["Optional:Titans"]
 
-- Pretty Pretty Smash Up:
-  name: Pretty Pretty Smash Up
+- name: Pretty Pretty Smash Up
   factions:
-    - Fairies:
-      name: Fairies
+    - name: Fairies
       logo: "static/images/Fairies.png"
-  
-    - Kitty Cats:
-      name: Kitty Cats
+      description: "Play cards with a choice between two effects and mess with other players' non-standard actions, especially play-on-minion actions."
+      mechanics: ["Optional:Titans"]
+
+    - name: Kitty Cats
       logo: "static/images/Kitty_Cats.png"
+      description: "Weaken other players' minions, temporarily take control of weak minions, and destroy your own minions for effects, whether minions you played or minions you took control of."
 
-    - Mythic Horses:
-      name: Mythic Horses
+    - name: Mythic Horses
       logo: "static/images/Mythic_Horses-0.png"
+      description: "Gain benefits for playing or simply having minions on the same base as another one of your minions."
 
-    - Princesses:
-      name: Princesses
+    - name: Princesses
       logo: "static/images/Princesses.png"
+      description: "Play with a reduced number of minions in your deck, but with a cast of six power-5 minions with useful abilities, and support your deck with movement, card draw and minion retrieval."
 
-- Smash Up Munchkin:
-  name: "Smash Up: Munchkin"
+- name: "Smash Up: Munchkin"
   factions:
-    - Clerics:
-      name: Clerics
+    - name: Clerics
       logo: "static/images/Clerics.png"
-  
-    - Dwarves:
-      name: Dwarves
+      description: "Retrieve your discarded cards, usually random cards, and move your minions away after their bases score."
+      mechanics: ["Monsters"]
+
+    - name: Dwarves
       logo: "static/images/Dwarves.png"
+      description: "Draw treasures cards, usually from the treasure discard pile, and gain power boost from play-on-minion treasures."
+      mechanics: ["Treasures", "Monsters"]
 
-    - Elves:
-      name: Elves
+    - name: Elves
       logo: "static/images/Elves.png"
+      description: "Help other players with card draw and power boosts, while helping yourself in exchange."
+      mechanics: ["Power-Counters", "Monsters"]
 
-    - Halflings:
-      name: Halflings
+    - name: Halflings
       logo: "static/images/Halflings.png"
+      description: "Draw and retrieve a lot of minions and play them as extras on bases where you're lagging behind other players."
+      mechanics: ["Monsters"]
 
-    - Mages:
-      name: Mages
+    - name: Mages
       logo: "static/images/Mages.png"
-  
-    - Orcs:
-      name: Orcs
+      description: "Discard cards for benefits, such as power gain, minion destruction, extra cards, and monster manipulation."
+      mechanics: ["Monsters"]
+
+    - name: Orcs
       logo: "static/images/Orcs-0.png"
+      description: "Make your minions insensitive to actions and gain benefits for having more power or more minions than other players."
+      mechanics: ["Monsters"]
 
-    - Thieves:
-      name: Thieves
+    - name: Thieves
       logo: "static/images/Thieves.png"
+      description: "Draw treasures, gain benefits for having treasures in hand, usually discarding them for the benefits, and steal things from other players, such as cards or VPs."
+      mechanics: ["Treasures", "Monsters"]
 
-    - Warriors:
-      name: Warriors
+    - name: Warriors
       logo: "static/images/Warriors.png"
+      description: "Play and destroy monsters on bases to manipulate their breakpoints and gain treasures, and gain power boosts from the presence or the destruction of monsters."
+      mechanics: ["Monsters", "Power-Counters"]
 
-- It's Your Fault!:
-  name: "It's Your Fault!"
+- name: "It's Your Fault!"
   factions:
-    - Dragons:
-      name: Dragons
+    - name: Dragons
       logo: "static/images/Dragons.png"
-  
-    - Mythic Greeks:
-      name: Mythic Greeks
+      description: "Play minions and play-on-base actions that manipulate their bases to make them unattractive for other players."
+
+    - name: Mythic Greeks
       logo: "static/images/Mythic_Greeks-0.png"
+      description: "Get power boosts each time you play an action."
+      mechanics: ["Power-Counters"]
 
-    - Sharks:
-      name: Sharks
+    - name: Sharks
       logo: "static/images/Sharks.png"
+      description: "Move around and destroy weaker minions to get +1 power counters and extra minion plays."
+      mechanics: ["Power-Counters"]
 
-    - Superheroes:
-      name: Superheroes
+    - name: Superheroes
       logo: "static/images/Superheroes.png"
+      description: "Protect your minions from destruction and morph your weak minions into power-5-or-more minions."
 
-    - Tornados:
-      name: Tornados
+    - name: Tornados
       logo: "static/images/Tornados-0.png"
+      description: "Move all minions, move your own minions, move other players' minions, even during base scoring."
+      mechanics: ["Power-Counters"]
 
-- Cease and Desist:
-  name: Cease and Desist
+- name: Cease and Desist
   factions:
-    - Astroknights:
-      name: Astroknights
+    - name: Astroknights
       logo: "static/images/Astro_Knights.png"
-  
-    - Changerbots:
-      name: Changerbots
+      description: "Play with a cast of ten unique minions that focus on drawing and playing actions that directly increase minion power."
+      mechanics: ["Power-Counters"]
+
+    - name: Changerbots
       logo: "static/images/Changerbots.png"
+      description: "Play play-on-minion actions, use talents to switch your minions between a powerful form and a weaker form with a useful ability, and move your minions around."
+      mechanics: ["Optional:Titans"]
 
-    - Ignobles:
-      name: Ignobles
+    - name: Ignobles
       logo: "static/images/Ignobles.png"
+      description: "Give control of your minions to other players for benefits, and take back control of them when the time is right."
+      mechanics: ["Optional:Power-Counters", "Optional:Titans"]
 
-    - Star Roamers:
-      name: Star Roamers
+    - name: Star Roamers
       logo: "static/images/Star_Roamers.png"
+      description: "Return your minions to hand for benefits, and manipulate how your minions are affected, like moving them instead of returning them or having your power-2 minions be affected instead of others."
 
-- What Were We Thinking?:
-  name: What Were We Thinking?
+- name: What Were We Thinking?
   factions:
-    - Explorers:
-      name: Explorers
+    - name: Explorers
       logo: "static/images/Explorers.png"
-  
-    - Grannies:
-      name: Grannies
+      description: "Take a peek and choose which base will come next, play extra minions on new bases to take early leads, and move minions all over the place."
+      mechanics: ["Power-Counters", "Optional:Titans"]
+
+    - name: Grannies
       logo: "static/images/Grannies.png"
+      description: "Manipulate your deck, draw/play actions from the top of your deck and draw/play minions from the bottom of your deck."
 
-    - Rock Stars:
-      name: Rock Stars
+    - name: Rock Stars
       logo: "static/images/Rock_Stars.png"
+      description: "Collect Groupies, gain advantages from bases with high breakpoints, play and move many minions at once to break bases."
 
-    - Teddy Bears:
-      name: Teddy Bears
+    - name: Teddy Bears
       logo: "static/images/Teddy_Bears.png"
+      description: "Play low-power minions as extras, gain benefits from the presence of other players' minions on their bases, and play actions that neutralize strong opposing minions."
+      mechanics: ["Power-Counters", "Optional:Titans"]
 
-- Big in Japan:
-  name: Big in Japan
+- name: Big in Japan
   factions:
-    - Itty Critters:
-      name: Itty Critters
+    - name: Itty Critters
       logo: "static/images/Itty_Critters.png"
-  
-    - Kaiju:
-      name: Kaiju
+      description: "Summon small minions directly from your deck just for their effects and return them to the bottom of your deck at the end of the turn."
+      mechanics: ["Power-Counters", "Titans"]
+
+    - name: Kaiju
       logo: "static/images/Kaiju-0.png"
+      description: "Play with fewer minions than normal, but gain power through your play-on-base actions, destroy other players' cards, manipulate bases and summon a giant freaking titan."
+      mechanics: ["Titans"]
 
-    - Magical Girls:
-      name: Magical Girls
+    - name: Magical Girls
       logo: "static/images/Magical_Girls.png"
+      description: "Use abilities that get better the more minions you have on the same base."
+      mechanics: ["Titans"]
 
-    - Mega Troopers:
-      name: Mega Troopers
+    - name: Mega Troopers
       logo: "static/images/Mega_Troopers.png"
+      description: "Wait until a base scores to use all kinds of strong Special abilities."
+      mechanics: ["Titans"]
 
-- Smash Up Sheep Promo:
-  name: Smash Up Sheep Promo
+- name: Smash Up Sheep Promo
   factions:
-    - Sheep:
-      name: Sheep
+    - name: Sheep
       logo: "static/images/Sheep_Icon.png"
+      description: "Move your minions around, especially after another minion moves, gain benefits for moving your minions and repeat other players' actions."
 
-- That 70s Expansion:
-  name: "That '70s Expansion"
+- name: "That '70s Expansion"
   factions:
-    - Disco Dancers:
-      name: Disco Dancers
+    - name: Disco Dancers
       logo: "static/images/Disco.png"
-  
-    - Kung Fu Fighters:
-      name: Kung Fu Fighters
+      description: "Duplicate the effects caused by standard actions on minions, thus increasing the number of affected minions."
+      mechanics: ["Power-Counters"]
+
+    - name: Kung Fu Fighters
       logo: "static/images/Kung_Fu.png"
+      description: "Generate +1 power counters, drain them from any minions, even other players', and destroy weaker minions."
+      mechanics: ["Power-Counters"]
 
-    - Truckers:
-      name: Truckers
+    - name: Truckers
       logo: "static/images/Trucker.png"
+      description: "Transfer play-on-base actions around in order to move your minions, and mess with other players' play-on-base actions, either by transferring them elsewhere or taking control of them."
 
-    - Vigilantes:
-      name: Vigilantes
+    - name: Vigilantes
       logo: "static/images/Vigilante.png"
+      description: "Play with a reduced number of minions in your deck, but with a team of seven power-4 minions with powerful and oppressive abilities, including hard removal, power boost and retaliation."
+      mechanics: ["Power-Counters"]
 
-- The Bigger Geekier Box:
-  name: The Bigger Geekier Box
+- name: The Bigger Geekier Box
   factions:
-    - Geeks:
-      name: Geeks
+    - name: Geeks
       logo: "static/images/Geeks.png"
-  
-    - Smash Up All Stars:
-      name: Smash Up All Stars
+      description: "Use your knowledge of the game to disrupt other players' plans."
+
+    - name: Smash Up All Stars
       logo: "static/images/Smash_Up_All_Stars_logo.png"
+      description: "Draw and retrieve cards from your deck and discard pile to get your best cards out as soon as possible and keep them around for as long as possible."
+      mechanics: ["Power-Counters"]
 
-- Oops, You Did it Again:
-  name: Oops, You Did it Again
+- name: Oops, You Did it Again
   factions:
-    - Ancient Egyptians:
-      name: Ancient Egyptians
+    - name: Ancient Egyptians
       logo: "static/images/Ancient_Egyptians_logo.png"
-  
-    - Cowboys:
-      name: Cowboys
+      description: "Bury cards for use in the future and gain benefits from burying and uncovering cards."
+      mechanics: ["Burying", "Power-Counters"]
+
+    - name: Cowboys
       logo: "static/images/Cowboys_logo.png"
+      description: "Start duels with other players' minions to get rid of them, and greatly boost your own power to win duels."
+      mechanics: ["Dueling", "Power-Counters"]
 
-    - Samurai:
-      name: Samurai
+    - name: Samurai
       logo: "static/images/Samurai_logo.png"
+      description: "Get various benefits whenever your minions go to the discard pile from play."
+      mechanics: ["Dueling", "Power-Counters"]
 
-    - Vikings:
-      name: Vikings
+    - name: Vikings
       logo: "static/images/Vikings_logo.png"
+      description: "Steal other players' cards and gain power at the cost of placing cards from your hand on the top of your deck."
 
-- World Tour International Incident:
-  name: "World Tour: International Incident"
+- name: "World Tour: International Incident"
   factions:
-    - Luchadors:
-      name: Luchadors
+    - name: Luchadors
       logo: "static/images/Luchadors_logo.png"
-  
-    - Mounties:
-      name: Mounties
+      description: "Search for and play actions on other players' minions, especially Set-Up actions, as a requirement to activate or play cards with much greater effects."
+
+    - name: Mounties
       logo: "static/images/Mounties_logo.png"
+      description: "Move to bases where there are other players' minions and buff your minions on bases where other players' minions are present."
+      mechanics: ["Power-Counters"]
 
-    - Musketeers:
-      name: Musketeers
+    - name: Musketeers
       logo: "static/images/Musketeers_logo.png"
+      description: "Chain a lot of extra actions that can directly affect your own minions and gain even more power, card draw and extra action as a benefit."
 
-    - Sumo Wrestlers:
-      name: Sumo Wrestlers
+    - name: Sumo Wrestlers
       logo: "static/images/Sumo_Wrestlers_logo.png"
+      description: "Discard cards to gain power, move other players' minions away from bases where you have minions and draw a lot of cards."
+      mechanics: ["Power-Counters"]
 
-- Smash UP Penguins:
-  name: Smash UP Penguins
+- name: Smash UP Penguins
   factions:
-    - Penguins:
-      name: Penguins
+    - name: Penguins
       logo: "static/images/Penguins_logo_2.png"
+      description: "Play random extra minions directly out of your deck and trigger abilities each time you play a minion that way."
+      mechanics: ["Optional:Power-Counters"]
 
-- Smash Up TITANS:
-  name: Smash UP TITANS
+- name: Smash UP TITANS
 
-- World Tour Culture Shock:
-  name: "World Tour: Culture Shock"
+- name: "World Tour: Culture Shock"
   factions:
-    - Anasi Tales:
-      name: Anasi Tales
+    - name: Anasi Tales
       logo: "static/images/Anansi_Tales_logo.png"
-  
-    - Ancient Incas:
-      name: Ancient Incas
+      description: "Give cards to other players for benefit, gain benefits when they play or discard them, and give away actions that are continuously passed between players."
+      mechanics: ["Power-Counters"]
+
+    - name: Ancient Incas
       logo: "static/images/Ancient_Incas_logo.png"
+      description: "Draw, play and replay play-on-base actions that activate abilities that trigger each time you play a play-on-base action, especially on the same base."
+      mechanics: ["Power-Counters"]
 
-    - Grimms' Fairy Tales:
-      name: Grimms' Fairy Tales
+    - name: Grimms' Fairy Tales
       logo: "static/images/Grimms_Fairy_Tales_logo.png"
+      description: "Play with a team of several pairs of minions who can only work when they are together with their partner."
 
-    - Polynesian Voyages:
-      name: Polynesian Voyages
+    - name: Polynesian Voyages
       logo: "static/images/Polynesian_Voyagers_logo.png"
+      description: "Move to bases where you don't already have a minion, gain power and +1 power counters from play-on-minion actions, and put additional bases into play."
+      mechanics: ["Power-Counters"]
 
-    - Russian Fairy Tales:
-      name: Russian Fairy Tales
+    - name: Russian Fairy Tales
       logo: "static/images/Russian_Fairy_Tales_logo.png"
+      description: "Replace any minions in play with other ones, usually random ones played off the top of their owner's deck."
 
-- Smash Up Marvel:
-  name: "Smash Up: Marvel"
+- name: "Smash Up: Marvel"
   factions:
-    - Avengers:
-      name: Avengers
+    - name: Avengers
       logo: ""
-  
-    - Hydra:
-      name: Hydra
-      logo: ""
+      description: "Play with a reduced number of characters in your deck, but with a cast of six power-5 characters with useful abilities, and each associated with a unique action that has two abilities, a regular one and a stronger one when the right character is in play."
 
-    - Kree:
-      name: Kree
+    - name: Hydra
+      logo: ""
+      description: "Destroy your characters to play a bunch of low-power characters."
+
+    - name: Kree
       logo: "static/images/Kree_icon.png"
+      description: "Play extra actions, draw actions and gain power from action plays."
 
-    - Masters of Evil:
-      name: Masters of Evil
+    - name: Masters of Evil
       logo: ""
+      description: "Fulfill the objectives of your cards to gain victory points and get benefits from having a lot of victory points."
 
-    - S.H.I.E.L.D:
-      name: S.H.I.E.L.D
+    - name: S.H.I.E.L.D
       logo: "static/images/SHIELD_icon.png"
-  
-    - Sinister Six:
-      name: Sinister Six
+      description: "Play extra characters on the same base and get power boosts for having/playing characters on the same base."
+
+    - name: Sinister Six
       logo: "static/images/Sinister_Six_icon.png"
+      description: "Play base modifiers, reduce the breakpoint of bases and gain advantages from bases with low breakpoints."
 
-    - Spider-Verse:
-      name: Spider-Verse
+    - name: Spider-Verse
       logo: "static/images/Spider-Verse_icon.png"
+      description: "Play with cards that you can be played either normally, or as Specials during base scoring but with weaker effects."
 
-    - Ultimates:
-      name: Ultimates
+    - name: Ultimates
       logo: ""
+      description: "Move your characters around, trigger abilities that activate on movements and gain power."
+
+- name: Goblins
+  factions:
+      - name: Goblins
+        logo: ""
+        description: "Flip coins to determine what benefits you can get."
+        mechanics: ["Power-Counters"]

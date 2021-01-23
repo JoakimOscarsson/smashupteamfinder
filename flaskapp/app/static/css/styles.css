@@ -38,8 +38,8 @@ body {
 }
 
 .card-box .ratio {
-    padding-bottom: calc(120%);
-    margin-bottom: 20%;
+    padding-bottom: calc(100%);
+    margin-bottom: 40%;
     height: 0;
     background-color: LightGray;
     background-size: contain;
